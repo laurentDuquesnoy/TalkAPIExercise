@@ -6,7 +6,7 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-@if (SignInManager.IsSignedIn())
+@if (SignInManager.IsSignedIn(User))
 {
     <div class="container">
         <h1>Chat</h1>
