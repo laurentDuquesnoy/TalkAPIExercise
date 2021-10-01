@@ -12,6 +12,7 @@ using TalkAPIExercise.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using TalkAPIExercise.Models;
 
 namespace TalkAPIExercise
 {
@@ -36,6 +37,15 @@ namespace TalkAPIExercise
                     options.SignIn.RequireConfirmedAccount = false;
                 })
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddHttpClient("TalkApi", (sp, c) =>
+            {
+                c.BaseAddress = new Uri("https://talkapi.azurewebsites.net/");
+            });
+
+            services.AddTransient<ChatChannelApi>();
+            
+            
             services.AddControllersWithViews();
 
             

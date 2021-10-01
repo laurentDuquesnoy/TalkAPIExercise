@@ -1,15 +1,31 @@
-﻿@{
+﻿@using Microsoft.CodeAnalysis.CSharp.Syntax
+@using Microsoft.AspNetCore.Identity
+@model IList<TalkAPIExercise.Models.ChatChannelResponse>
+@inject  SignInManager<IdentityUser> SignInManager
+
+@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="container">
-    <h1>Chat</h1>
-    <div class="main__wrapper">
-        <div class="contacts--window-wrapper">
+@if (SignInManager.IsSignedIn())
+{
+    <div class="container">
+        <h1>Chat</h1>
+        <div class="main__wrapper">
+            <div class="contacts--window-wrapper">
             
-        </div>
-        <div class="chat--window-wrapper">
+            </div>
+            <div class="chat--window-wrapper">
             
+            </div>
         </div>
     </div>
-</div>
+    <p>
+        @foreach (ChatChannelResponse resp in Model)
+        {
+            <div>
+                <p>@resp.Name</p>
+                <p>@resp.CreatedAt</p>
+            </div>
+        }
+    </p>
+}
