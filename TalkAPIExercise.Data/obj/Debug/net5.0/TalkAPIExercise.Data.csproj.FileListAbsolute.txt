@@ -1,0 +1,12 @@
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise.Data\bin\Debug\net5.0\TalkAPIExercise.Data.deps.json
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise.Data\bin\Debug\net5.0\TalkAPIExercise.Data.dll
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise.Data\bin\Debug\net5.0\ref\TalkAPIExercise.Data.dll
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise.Data\bin\Debug\net5.0\TalkAPIExercise.Data.pdb
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise.Data\obj\Debug\net5.0\TalkAPIExercise.Data.csproj.AssemblyReference.cache
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise.Data\obj\Debug\net5.0\TalkAPIExercise.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise.Data\obj\Debug\net5.0\TalkAPIExercise.Data.AssemblyInfoInputs.cache
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise.Data\obj\Debug\net5.0\TalkAPIExercise.Data.AssemblyInfo.cs
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise.Data\obj\Debug\net5.0\TalkAPIExercise.Data.csproj.CoreCompileInputs.cache
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise.Data\obj\Debug\net5.0\TalkAPIExercise.Data.dll
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise.Data\obj\Debug\net5.0\ref\TalkAPIExercise.Data.dll
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise.Data\obj\Debug\net5.0\TalkAPIExercise.Data.pdb

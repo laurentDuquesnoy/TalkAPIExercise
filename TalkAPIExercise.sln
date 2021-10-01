@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkAPIExercise", "TalkAPIExercise\TalkAPIExercise.csproj", "{A13D2C08-F6F2-4142-B723-2703618F8330}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkAPIExercise.Data", "TalkAPIExercise.Data\TalkAPIExercise.Data.csproj", "{0D04EF2D-22B4-4836-9775-18AB4B66E67C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A13D2C08-F6F2-4142-B723-2703618F8330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A13D2C08-F6F2-4142-B723-2703618F8330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A13D2C08-F6F2-4142-B723-2703618F8330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D04EF2D-22B4-4836-9775-18AB4B66E67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D04EF2D-22B4-4836-9775-18AB4B66E67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D04EF2D-22B4-4836-9775-18AB4B66E67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D04EF2D-22B4-4836-9775-18AB4B66E67C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
