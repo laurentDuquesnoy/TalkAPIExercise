@@ -20,6 +20,8 @@
 
     <ItemGroup>
       <ProjectReference Include="..\TalkAPIExercise.Data\TalkAPIExercise.Data.csproj" />
+      <ProjectReference Include="..\TalkApiExercise.Model\TalkApiExercise.Model.csproj" />
+      <ProjectReference Include="..\TalkApiExercise.SDK\TalkApiExercise.SDK.csproj" />
     </ItemGroup>
 
 </Project>

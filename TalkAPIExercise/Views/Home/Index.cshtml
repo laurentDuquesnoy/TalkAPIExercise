@@ -1,6 +1,7 @@
 ﻿@using Microsoft.CodeAnalysis.CSharp.Syntax
-@using Microsoft.AspNetCore.Identity
-@model IList<TalkAPIExercise.Models.ChatChannelResponse>
+@using Microsoft.AspNetCore.Identity;
+@using TalkAPIExercise.Model
+@model ChatModel
 @inject  SignInManager<IdentityUser> SignInManager
 
 @{
@@ -8,24 +9,47 @@
 }
 @if (SignInManager.IsSignedIn(User))
 {
-    <div class="container">
-        <h1>Chat</h1>
+    <div class="main__container">
+        <h1 class="main__title">Chat</h1>
         <div class="main__wrapper">
             <div class="contacts--window-wrapper">
-            
+            @foreach (ChannelModel channel in Model.Channels)
+                    {
+                        <a asp-controller="Home" asp-action="Channel_click" class="noStyle" asp-route-channelName="@channel.Name">
+                            <div class="channel__wrapper" >
+                                <div class="channel__picture--wrapper">
+                                    <img src="./assets/account--circle.svg" alt="channel picture"/>
+                                </div>
+                                <div class="channel__text--wrapper">
+                                    <p>@channel.Name</p>
+                                </div>
+                            </div>    
+                        </a>
+                    }
             </div>
             <div class="chat--window-wrapper">
-            
+                @if (String.IsNullOrWhiteSpace(Model.SelectedChannel))
+                {
+                    <div class="default__chatWindow">
+                        <p class="default__message">Select a channel to view its messages</p>
+                    </div>
+                }
+                else
+                {
+                    foreach (MessageModel message in Model.Messages)
+                    {
+                        <div class="message__wrapper">
+                            <p>@message.Message</p>
+                        </div>
+                    }
+                }
             </div>
         </div>
     </div>
-    <p>
-        @foreach (ChatChannelResponse resp in Model)
-        {
-            <div>
-                <p>@resp.Name</p>
-                <p>@resp.CreatedAt</p>
-            </div>
-        }
-    </p>
+}
+else
+{
+    <div class="container__nologin">
+        <h1>Please login to access features</h1>
+    </div>
 }

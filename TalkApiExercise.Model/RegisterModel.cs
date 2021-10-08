@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace TalkAPIExercise.Models
+namespace TalkAPIExercise.Model
 {
     public class RegisterModel
     {

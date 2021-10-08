@@ -167,3 +167,7 @@ C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\
 C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise\obj\Debug\net5.0\Razor\Views\Account\SignIn.cshtml.g.cs
 C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise\bin\Debug\net5.0\System.Net.Http.Formatting.dll
 C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise\bin\Debug\net5.0\TalkApiExercise.Model.dll
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise\bin\Debug\net5.0\TalkApiExercise.SDK.dll
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise\bin\Debug\net5.0\TalkApiExercise.Model.pdb
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkAPIExercise\bin\Debug\net5.0\TalkApiExercise.SDK.pdb

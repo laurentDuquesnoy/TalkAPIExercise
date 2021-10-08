@@ -30,8 +30,6 @@ namespace TalkAPIExercise.Data
                 PasswordHash = passHash
             };
             Users.Add(user);
-
         }
-        
     }
 }

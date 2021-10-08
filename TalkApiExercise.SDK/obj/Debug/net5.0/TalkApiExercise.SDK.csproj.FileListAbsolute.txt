@@ -1,0 +1,15 @@
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\bin\Debug\net5.0\TalkApiExercise.SDK.deps.json
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\bin\Debug\net5.0\TalkApiExercise.SDK.dll
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\bin\Debug\net5.0\ref\TalkApiExercise.SDK.dll
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\bin\Debug\net5.0\TalkApiExercise.SDK.pdb
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\bin\Debug\net5.0\TalkApiExercise.Model.dll
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\bin\Debug\net5.0\TalkApiExercise.Model.pdb
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\obj\Debug\net5.0\TalkApiExercise.SDK.csproj.AssemblyReference.cache
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\obj\Debug\net5.0\TalkApiExercise.SDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\obj\Debug\net5.0\TalkApiExercise.SDK.AssemblyInfoInputs.cache
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\obj\Debug\net5.0\TalkApiExercise.SDK.AssemblyInfo.cs
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\obj\Debug\net5.0\TalkApiExercise.SDK.csproj.CoreCompileInputs.cache
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\obj\Debug\net5.0\TalkApiExercise.SDK.csproj.CopyComplete
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\obj\Debug\net5.0\TalkApiExercise.SDK.dll
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\obj\Debug\net5.0\ref\TalkApiExercise.SDK.dll
+C:\Users\laure\Documents\Documents\vives_2\DynamicWebsites\les4\TalkAPIExercise\TalkApiExercise.SDK\obj\Debug\net5.0\TalkApiExercise.SDK.pdb

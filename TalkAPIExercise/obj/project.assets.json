@@ -2161,6 +2161,30 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "TalkApiExercise.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/TalkApiExercise.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TalkApiExercise.Model.dll": {}
+        }
+      },
+      "TalkApiExercise.SDK/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "5.0.0",
+          "TalkApiExercise.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TalkApiExercise.SDK.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TalkApiExercise.SDK.dll": {}
+        }
       }
     }
   },
@@ -7146,6 +7170,16 @@
       "type": "project",
       "path": "../TalkAPIExercise.Data/TalkAPIExercise.Data.csproj",
       "msbuildProject": "../TalkAPIExercise.Data/TalkAPIExercise.Data.csproj"
+    },
+    "TalkApiExercise.Model/1.0.0": {
+      "type": "project",
+      "path": "../TalkApiExercise.Model/TalkApiExercise.Model.csproj",
+      "msbuildProject": "../TalkApiExercise.Model/TalkApiExercise.Model.csproj"
+    },
+    "TalkApiExercise.SDK/1.0.0": {
+      "type": "project",
+      "path": "../TalkApiExercise.SDK/TalkApiExercise.SDK.csproj",
+      "msbuildProject": "../TalkApiExercise.SDK/TalkApiExercise.SDK.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7156,7 +7190,9 @@
       "Microsoft.EntityFrameworkCore.InMemory >= 5.0.6",
       "Microsoft.Extensions.Http >= 5.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
-      "TalkAPIExercise.Data >= 1.0.0"
+      "TalkAPIExercise.Data >= 1.0.0",
+      "TalkApiExercise.Model >= 1.0.0",
+      "TalkApiExercise.SDK >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7193,6 +7229,12 @@
           "projectReferences": {
             "C:\\Users\\laure\\Documents\\Documents\\vives_2\\DynamicWebsites\\les4\\TalkAPIExercise\\TalkAPIExercise.Data\\TalkAPIExercise.Data.csproj": {
               "projectPath": "C:\\Users\\laure\\Documents\\Documents\\vives_2\\DynamicWebsites\\les4\\TalkAPIExercise\\TalkAPIExercise.Data\\TalkAPIExercise.Data.csproj"
+            },
+            "C:\\Users\\laure\\Documents\\Documents\\vives_2\\DynamicWebsites\\les4\\TalkAPIExercise\\TalkApiExercise.Model\\TalkApiExercise.Model.csproj": {
+              "projectPath": "C:\\Users\\laure\\Documents\\Documents\\vives_2\\DynamicWebsites\\les4\\TalkAPIExercise\\TalkApiExercise.Model\\TalkApiExercise.Model.csproj"
+            },
+            "C:\\Users\\laure\\Documents\\Documents\\vives_2\\DynamicWebsites\\les4\\TalkAPIExercise\\TalkApiExercise.SDK\\TalkApiExercise.SDK.csproj": {
+              "projectPath": "C:\\Users\\laure\\Documents\\Documents\\vives_2\\DynamicWebsites\\les4\\TalkAPIExercise\\TalkApiExercise.SDK\\TalkApiExercise.SDK.csproj"
             }
           }
         }
