@@ -1,6 +1,7 @@
 ﻿@using Microsoft.CodeAnalysis.CSharp.Syntax
 @using Microsoft.AspNetCore.Identity;
 @using TalkAPIExercise.Model
+@using System.Security.Claims
 @model ChatModel
 @inject  SignInManager<IdentityUser> SignInManager
 
@@ -18,7 +19,7 @@
                         <a asp-controller="Home" asp-action="Channel_click" class="noStyle" asp-route-channelName="@channel.Name">
                             <div class="channel__wrapper" >
                                 <div class="channel__picture--wrapper">
-                                    <img src="./assets/account--circle.svg" alt="channel picture"/>
+                                    <img src="~/assets/account--circle.svg" alt="channel picture"/>
                                 </div>
                                 <div class="channel__text--wrapper">
                                     <p>@channel.Name</p>
@@ -36,12 +37,20 @@
                 }
                 else
                 {
-                    foreach (MessageModel message in Model.Messages)
-                    {
-                        <div class="message__wrapper">
-                            <p>@message.Message</p>
-                        </div>
-                    }
+                    <form method="post" class="message__form--wrapper">
+                        <input type="text" class="message__form--field" asp-for="@Model.MessageContent"/>
+                        <input type="hidden" class="hidden" asp-for="@Model.SelectedChannel"/>
+                        <button type="submit" asp-action="Index">Send</button>
+                    </form>
+                    <div class="messages__wrapper">
+                        @foreach (MessageModel message in Model.Messages)
+                        {
+                            var sender = message.Author == User.FindFirst(ClaimTypes.Email).Value ? "right" : "left";
+                            <div class="message__wrapper @sender " >
+                                <p>@message.Message</p>
+                            </div>
+                        }
+                    </div>
                 }
             </div>
         </div>

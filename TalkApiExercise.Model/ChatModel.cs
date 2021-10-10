@@ -7,6 +7,7 @@ namespace TalkAPIExercise.Model
         public string SelectedChannel { get; set; }
         public IList<MessageModel> Messages { get; set; }
         public IList<ChannelModel> Channels { get; set; }
+        public string MessageContent { get; set; }
         public ChatModel()
         {
             Messages = new List<MessageModel>();

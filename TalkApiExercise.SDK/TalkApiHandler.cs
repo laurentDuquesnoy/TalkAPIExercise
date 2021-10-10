@@ -31,5 +31,14 @@ namespace TalkApiExercise.SDK
             httpResp.EnsureSuccessStatusCode();
             return await httpResp.Content.ReadFromJsonAsync<IList<MessageModel>>();  
         }
+
+        public async Task<MessageModel> SendMessage(MessageModel model)
+        {
+            var httpClient = _httpClient.CreateClient("TalkApi");
+            var route = "chat-messages";
+            var httpResp = await httpClient.PostAsJsonAsync(route, model);
+            httpResp.EnsureSuccessStatusCode();
+            return await httpResp.Content.ReadFromJsonAsync<MessageModel>();
+        }
     }
 }

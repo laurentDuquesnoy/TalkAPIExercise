@@ -25,10 +25,7 @@ body{
     display: grid;
     grid-template-columns: 30% 70%;
 }
-.chat--window-wrapper{
-    background-color: white;
-    padding: .5rem;
-}
+
 .contacts--window-wrapper{
     padding-left: .5rem;
     overflow-y: scroll;
@@ -50,4 +47,62 @@ body{
     font-size: 1.2rem;
     width: 100%;
     margin-left: 1rem;
+    color: black;
+}
+.chat--window-wrapper{
+    background-color: white;
+    padding: .5rem;
+    height: 75vh;
+    overflow-y: scroll;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    
+}
+.message__form--wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.message__form--field{
+    width: 90%;
+}
+.message__form--wrapper > button{
+    width: 10%
+}
+.messages__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.message__wrapper{
+    max-width: 40%;
+    padding: .4rem .4rem .4rem 0;
+    margin: .5rem 0 .5rem 0;
+    min-width: 20%;
+    display: flex;
+    align-items: center;
+    border-radius: .3rem;
+}
+.message__wrapper > p{
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    margin: .5rem;
+}
+.left{
+    background-color: darkgray;
+    align-self: flex-start;
+    padding-left: .2rem;
+}
+.right{
+    background-color: lightgray;  
+    align-self: flex-end;
+    text-align: right ;
+    padding-right: .2rem;
+    
+}
+.right > p{
+    justify-self: flex-start;
 }

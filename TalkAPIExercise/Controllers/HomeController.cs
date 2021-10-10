@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -26,16 +27,30 @@ namespace TalkAPIExercise.Controllers
             _signInManager = signInManager;
             _talkApi = talkApi;
         }
-
-        public async Task<IActionResult> Index(ChatModel model)
+        
+        [HttpGet]
+        public async Task<IActionResult> Index(string channelName = "")
         {
-            if (model.Channels.Count == 0)
-            {
-                model = await CreateChatModel();
-            }
+            var model = await CreateChatModel(channelName);
             return View(model);
         }
-        
+
+        [HttpPost]
+        public async Task<IActionResult> Index(ChatModel model)
+        {
+            if (string.IsNullOrWhiteSpace(model.MessageContent))
+            {
+                return RedirectToAction("Index" ,new {model.SelectedChannel});
+            }
+            MessageModel message = new MessageModel
+            {
+                Author = User.FindFirst(ClaimTypes.Email).Value,
+                Channel = model.SelectedChannel,
+                Message = model.MessageContent
+            };
+            var newMessage = await _talkApi.SendMessage(message);
+            return RedirectToAction("Index", new {channelName = model.SelectedChannel});
+        }
         public IActionResult Privacy()
         {
             return View();
@@ -49,8 +64,7 @@ namespace TalkAPIExercise.Controllers
 
         public async Task<IActionResult> Channel_click(string channelName)
         {
-            var model = CreateChatModel(channelName);
-            return RedirectToAction("Index", model);
+            return RedirectToAction("Index", new{channelName});
         }
 
         private async Task<ChatModel> CreateChatModel(string selectedChannel = "")
@@ -61,12 +75,16 @@ namespace TalkAPIExercise.Controllers
                 Messages = await _talkApi.GetMessages(),
                 SelectedChannel = selectedChannel
             };
+            if (!string.IsNullOrWhiteSpace(selectedChannel))
+            {
+                model = await FilterModelMessages(model);
+            }
             return model;
         }
 
-        private ChatModel FilterModelMessages(ChatModel model)
+        private async Task<ChatModel> FilterModelMessages(ChatModel model)
         {
-            foreach (MessageModel message in model.Messages)
+            foreach (MessageModel message in model.Messages.ToList())
             {
                 if (message.Channel != model.SelectedChannel)
                 {
