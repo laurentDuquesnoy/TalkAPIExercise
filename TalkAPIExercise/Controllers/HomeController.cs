@@ -20,6 +20,7 @@ namespace TalkAPIExercise.Controllers
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly TalkApiHandler _talkApi;
 
+        //TODO add a function to add channels - could be integrated in later applications
         public HomeController(ILogger<HomeController> logger, SignInManager<IdentityUser> signInManager, UserManager<IdentityUser> userManager, TalkApiHandler talkApi)
         {
             _logger = logger;

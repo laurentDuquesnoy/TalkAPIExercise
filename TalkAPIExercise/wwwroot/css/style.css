@@ -17,9 +17,10 @@ body{
 .main__title{
     top: 0;
     position: sticky;
-    background-color: darkgray;
-    padding: 1.2rem .5rem;
+    border: 2px solid black;
+    padding: .8rem .5rem;
     margin-bottom: 0;
+    text-align: center;
 }
 .main__wrapper{
     display: grid;
@@ -51,7 +52,7 @@ body{
 }
 .chat--window-wrapper{
     background-color: white;
-    padding: .5rem;
+   
     height: 75vh;
     overflow-y: scroll;
     
@@ -64,17 +65,24 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    bottom: 0;
+    position: sticky;
+    z-index: 5;
 }
 
 .message__form--field{
     width: 90%;
 }
 .message__form--wrapper > button{
-    width: 10%
+    width: 10%;
+    background-color: white;
+    border: 1px solid black;
 }
 .messages__wrapper{
     display: flex;
     flex-direction: column;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 .message__wrapper{
     max-width: 40%;
@@ -82,14 +90,22 @@ body{
     margin: .5rem 0 .5rem 0;
     min-width: 20%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     border-radius: .3rem;
 }
-.message__wrapper > p{
+.message__body{
     align-self: center;
-    height: 100%;
     width: 100%;
     margin: .5rem;
+    font-weight: bold;
+}
+.message__info{
+    align-self: center;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 .5rem;
+    opacity: 80%;
 }
 .left{
     background-color: darkgray;

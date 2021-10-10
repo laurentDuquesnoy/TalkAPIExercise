@@ -7,11 +7,12 @@
 
 @{
     ViewData["Title"] = "Home Page";
+    var channelName = string.IsNullOrWhiteSpace(Model.SelectedChannel) ? "" : " - " + Model.SelectedChannel;
 }
 @if (SignInManager.IsSignedIn(User))
 {
     <div class="main__container">
-        <h1 class="main__title">Chat</h1>
+        <h1 class="main__title">Chat @channelName</h1>
         <div class="main__wrapper">
             <div class="contacts--window-wrapper">
             @foreach (ChannelModel channel in Model.Channels)
@@ -46,8 +47,9 @@
                         @foreach (MessageModel message in Model.Messages)
                         {
                             var sender = message.Author == User.FindFirst(ClaimTypes.Email).Value ? "right" : "left";
-                            <div class="message__wrapper @sender " >
-                                <p>@message.Message</p>
+                            <div class="message__wrapper @sender ">
+                                <p class="message__info">@message.Author - @message.CreatedAt.ToShortTimeString()</p>
+                                <p class="message__body">@message.Message</p>
                             </div>
                         }
                     </div>

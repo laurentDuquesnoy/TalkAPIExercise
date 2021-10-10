@@ -6,42 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a5d90b34-157c-4069-a297-f75ccf24a2d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TalkAPIExercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TalkAPIExercise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkAPIExercise/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/Controllers/HomeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TalkAPIExercise/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkAPIExercise.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkAPIExercise.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkAPIExercise.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkAPIExercise.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkAPIExercise.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkAPIExercise.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkAPIExercise.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkAPIExercise.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkApiExercise.Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkApiExercise.Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkApiExercise.Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkApiExercise.Model.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkApiExercise.SDK.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkApiExercise.SDK.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkApiExercise.SDK.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/TalkApiExercise.SDK.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/ref/TalkAPIExercise.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/bin/Debug/net5.0/ref/TalkAPIExercise.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/TalkAPIExercise.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/TalkAPIExercise.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/TalkAPIExercise.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/TalkAPIExercise.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/TalkAPIExercise.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/TalkAPIExercise.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/TalkAPIExercise.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/TalkAPIExercise.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/TalkAPIExercise.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/TalkAPIExercise.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/ref/TalkAPIExercise.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/obj/Debug/net5.0/ref/TalkAPIExercise.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TalkAPIExercise/wwwroot/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/TalkAPIExercise/wwwroot/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.Model/ChatModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.Model/ChatModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.Model/bin/Debug/net5.0/TalkApiExercise.Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.Model/bin/Debug/net5.0/TalkApiExercise.Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.Model/bin/Debug/net5.0/TalkApiExercise.Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.Model/bin/Debug/net5.0/TalkApiExercise.Model.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.Model/bin/Debug/net5.0/ref/TalkApiExercise.Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.Model/bin/Debug/net5.0/ref/TalkApiExercise.Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.Model/obj/Debug/net5.0/TalkApiExercise.Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.Model/obj/Debug/net5.0/TalkApiExercise.Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.Model/obj/Debug/net5.0/TalkApiExercise.Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.Model/obj/Debug/net5.0/TalkApiExercise.Model.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.Model/obj/Debug/net5.0/ref/TalkApiExercise.Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.Model/obj/Debug/net5.0/ref/TalkApiExercise.Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.SDK/TalkApiHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.SDK/TalkApiHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.SDK/bin/Debug/net5.0/TalkApiExercise.Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.SDK/bin/Debug/net5.0/TalkApiExercise.Model.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.SDK/bin/Debug/net5.0/TalkApiExercise.Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.SDK/bin/Debug/net5.0/TalkApiExercise.Model.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.SDK/bin/Debug/net5.0/TalkApiExercise.SDK.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.SDK/bin/Debug/net5.0/TalkApiExercise.SDK.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.SDK/bin/Debug/net5.0/TalkApiExercise.SDK.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.SDK/bin/Debug/net5.0/TalkApiExercise.SDK.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.SDK/bin/Debug/net5.0/ref/TalkApiExercise.SDK.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.SDK/bin/Debug/net5.0/ref/TalkApiExercise.SDK.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.SDK/obj/Debug/net5.0/TalkApiExercise.SDK.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.SDK/obj/Debug/net5.0/TalkApiExercise.SDK.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.SDK/obj/Debug/net5.0/TalkApiExercise.SDK.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.SDK/obj/Debug/net5.0/TalkApiExercise.SDK.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.SDK/obj/Debug/net5.0/TalkApiExercise.SDK.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.SDK/obj/Debug/net5.0/TalkApiExercise.SDK.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TalkApiExercise.SDK/obj/Debug/net5.0/ref/TalkApiExercise.SDK.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TalkApiExercise.SDK/obj/Debug/net5.0/ref/TalkApiExercise.SDK.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +71,8 @@
       <option value="$PROJECT_DIR$/TalkApiExercise.Model/ChatModel.cs" />
       <option value="$PROJECT_DIR$/TalkApiExercise.SDK/TalkApiHandler.cs" />
       <option value="$PROJECT_DIR$/TalkAPIExercise/Controllers/HomeController.cs" />
-      <option value="$PROJECT_DIR$/TalkAPIExercise/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/TalkAPIExercise/wwwroot/css/style.css" />
+      <option value="$PROJECT_DIR$/TalkAPIExercise/Views/Home/Index.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1yuA2B7ZYtbippcYIGZIpaS2Rty" />
@@ -177,7 +148,7 @@
       <workItem from="1633685190171" duration="1907000" />
       <workItem from="1633700850190" duration="9003000" />
       <workItem from="1633797950700" duration="2231000" />
-      <workItem from="1633873369104" duration="8911000" />
+      <workItem from="1633873369104" duration="10228000" />
     </task>
     <servers />
   </component>
